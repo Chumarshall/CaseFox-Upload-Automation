@@ -1,19 +1,12 @@
 # CaseFox-Upload-Automation
 A simple python script that automates the process of uploading the timesheet to CaseFox
 
-If you are using CaseFox to record your work time, it can be a tedious process to make sure you record your time properly. So you may be using an Excel spreadsheet to record your time and upload the time whenever needed.
+If you are using CaseFox to record your work time, it can be a tedious process to make sure you record your time properly. Im my case, I used to document my time in an Excel spreadsheet and manually upload the time to CaseFox on a weekly basis.
+However, manual work is one of the biggest enemies of efficiency.
 
-As for myself, I use a spreadsheet to record my time and upload the time to CaseFox on a weekly basis.
-However, it is not a pleasant process to manually copy and paste the time to CaseFox.
+So I played around and built my first Python automation script using selenium. 
 
-This script takes the columns in the spreadsheet and inputs the value to CaseFox.
-
-## The process is simple:
-1. Record your time on a spreadsheet
-2. Run the script to upload the time
-3. Done
-
-The idea behind the script is to use a loop to read the value in the timesheet and find the corresponding field on CaseFox.
+The idea behind the script is to use a loop to read the value in the timesheet and find the corresponding field on the CaseFox website.
 
 ## How to:
 1. Before getting started, you will need to set up **Selenium** and your **browser driver**.
